@@ -1,0 +1,14 @@
+li.editHome{
+    list-style-type: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    margin-bottom: -0.5cm;
+}
+
+li.editWeather{
+    list-style-type: none;
+    padding-left: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    margin-bottom: -0.5cm;
+}
