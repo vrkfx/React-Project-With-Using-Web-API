@@ -13,7 +13,7 @@ const navbar = () => {
                                 <Link to="/" style={{ textDecoration: 'none', color:"White"} }> HOME </Link>
                             </li>
                             <li className='editWeather'>
-                                <Link to="/weather" style={{ textDecoration: 'none', color:'Yellow' }}> WEATHER </Link>
+                                <Link to="/Weather" style={{ textDecoration: 'none', color:'Yellow' }}> WEATHER </Link>
                             </li>
                         </ul>
                 </nav>
