@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./weather.css";
+import Details from "./Details";
 
 const Weather = () => {
 
@@ -33,9 +34,11 @@ const Weather = () => {
         <div className="weather weather">
             <h1>Find Weather</h1>
             <div>
-                {JSON.stringify(responseObj)}
+                {/* {JSON.stringify(responseObj)} */}
+
             </div>
             <button onClick={GetWeather}> Get Weather</button>
+            <Details responseObj={responseObj}></Details>
         </div>
     );
 }
